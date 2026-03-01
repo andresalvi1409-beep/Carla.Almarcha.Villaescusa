@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valeria Beauty Studio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #ff4d8d, #ff99c8);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: white;
+    color: #ff4d8d;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #333;
+    color: white;
+}
+
+section {
+    padding: 80px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    color: #ff4d8d;
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.contacto {
+    text-align: center;
+}
+
+.redes a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff4d8d;
+    font-weight: bold;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Valeria Beauty Studio</h1>
+    <p>Maquillaje profesional para bodas, eventos y sesiones</p>
+    <a href="https://wa.me/34600000000" class="btn">Reservar por WhatsApp</a>
+</header>
+
+<section>
+    <h2>Sobre mí</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+        Soy maquilladora profesional especializada en resaltar la belleza natural de cada persona.
+        Trabajo con productos de alta calidad y técnicas modernas para garantizar un resultado perfecto.
+    </p>
+</section>
+
+<section>
+    <h2>Servicios</h2>
+    <div class="servicios">
+        <div class="card">
+            <h3>💍 Maquillaje de Novia</h3>
+            <p>Prueba + maquillaje el día del evento</p>
+            <p><strong>150€</strong></p>
+        </div>
+        <div class="card">
+            <h3>🎉 Eventos</h3>
+            <p>Maquillaje para fiestas y celebraciones</p>
+            <p><strong>60€</strong></p>
+        </div>
+        <div class="card">
+            <h3>📸 Sesiones de Fotos</h3>
+            <p>Maquillaje profesional HD</p>
+            <p><strong>80€</strong></p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Galería</h2>
+    <div class="galeria">
+        <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Maquillaje 1">
+        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f" alt="Maquillaje 2">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9" alt="Maquillaje 3">
+        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Maquillaje 4">
+    </div>
+</section>
+
+<section class="contacto">
+    <h2>Contacto</h2>
+    <p>📍 Almansa</p>
+    <p>📞 600 000 000</p>
+    <p>📧 valeria@beauty.com</p>
+    <div class="redes">
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">Facebook</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Valeria Beauty Studio - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
